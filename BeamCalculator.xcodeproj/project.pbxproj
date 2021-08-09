@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D8ABA9C181CA69900B7AF3C /* inputDeleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8ABA94181CA69800B7AF3C /* inputDeleteButton@2x.png */; };
+		6D8ABA9F181CA69900B7AF3C /* inputDropDownSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8ABA97181CA69900B7AF3C /* inputDropDownSmall.png */; };
+		6D8ABAA0181CA69900B7AF3C /* inputDropDownSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8ABA98181CA69900B7AF3C /* inputDropDownSmall@2x.png */; };
+		6D8ABAA2181CABD000B7AF3C /* inputDropDownLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8ABAA1181CABD000B7AF3C /* inputDropDownLarge.png */; };
+		6DCE1E33181CAF3700DE888A /* inputAddButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE1E2B181CAF3700DE888A /* inputAddButton.png */; };
+		6DCE1E34181CAF3700DE888A /* inputAddButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE1E2C181CAF3700DE888A /* inputAddButton@2x.png */; };
+		6DCE1E3C181CB31200DE888A /* inputDropDownLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE1E3B181CB31200DE888A /* inputDropDownLarge@2x.png */; };
+		6DCE1E41181CB55600DE888A /* inputEditText0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE1E3D181CB55600DE888A /* inputEditText0.png */; };
+		6DCE1E42181CB55600DE888A /* inputEditText0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE1E3E181CB55600DE888A /* inputEditText0@2x.png */; };
+		6DCE1E43181CB55600DE888A /* inputEditText2.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE1E3F181CB55600DE888A /* inputEditText2.png.png */; };
+		6DCE1E44181CB55600DE888A /* inputEditText2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE1E40181CB55600DE888A /* inputEditText2@2x.png */; };
+		6DD71920181CB7BB0017F423 /* inputEditText0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD7191C181CB7BB0017F423 /* inputEditText0.png */; };
+		6DD71921181CB7BB0017F423 /* inputEditText0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD7191D181CB7BB0017F423 /* inputEditText0@2x.png */; };
+		6DD71922181CB7BB0017F423 /* inputEditText2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD7191E181CB7BB0017F423 /* inputEditText2.png */; };
+		6DD71923181CB7BB0017F423 /* inputEditText2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD7191F181CB7BB0017F423 /* inputEditText2@2x.png */; };
+		8103EF41181B8D5A005DA945 /* outputBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103EF40181B8D5A005DA945 /* outputBackButton.png */; };
+		8103EF4C181B9305005DA945 /* inputEditText1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103EF49181B9305005DA945 /* inputEditText1.png */; };
+		815C23E21816610500587E0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815C23E11816610500587E0D /* UIKit.framework */; };
+		815C23E41816610500587E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815C23E31816610500587E0D /* Foundation.framework */; };
+		815C23E61816610500587E0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815C23E51816610500587E0D /* CoreGraphics.framework */; };
+		815C23EC1816610500587E0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 815C23EA1816610500587E0D /* InfoPlist.strings */; };
+		815C23EE1816610500587E0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C23ED1816610500587E0D /* main.m */; };
+		815C23F21816610500587E0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C23F11816610500587E0D /* AppDelegate.m */; };
+		815C23F51816610500587E0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C23F41816610500587E0D /* ViewController.m */; };
+		815C23F81816610500587E0D /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815C23F61816610500587E0D /* ViewController_iPhone.xib */; };
+		815C23FB1816610500587E0D /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815C23F91816610500587E0D /* ViewController_iPad.xib */; };
+		8176F8C1181B9CD0006342A6 /* inputRunButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8176F8C0181B9CD0006342A6 /* inputRunButton.png */; };
+		A4E54C9B1833927A00169296 /* abs.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C7D1833927A00169296 /* abs.c */; };
+		A4E54C9C1833927A00169296 /* ConcreteDesign_emxAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C7F1833927A00169296 /* ConcreteDesign_emxAPI.c */; };
+		A4E54C9D1833927A00169296 /* ConcreteDesign_emxutil.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C811833927A00169296 /* ConcreteDesign_emxutil.c */; };
+		A4E54C9E1833927A00169296 /* ConcreteDesign_initialize.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C831833927A00169296 /* ConcreteDesign_initialize.c */; };
+		A4E54C9F1833927A00169296 /* ConcreteDesign_terminate.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C851833927A00169296 /* ConcreteDesign_terminate.c */; };
+		A4E54CA01833927A00169296 /* ConcreteDesign.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C881833927A00169296 /* ConcreteDesign.c */; };
+		A4E54CA11833927A00169296 /* fileManager.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C8A1833927A00169296 /* fileManager.c */; };
+		A4E54CA21833927A00169296 /* fprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C8C1833927A00169296 /* fprintf.c */; };
+		A4E54CA31833927A00169296 /* rdivide.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C8E1833927A00169296 /* rdivide.c */; };
+		A4E54CA41833927A00169296 /* round.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C901833927A00169296 /* round.c */; };
+		A4E54CA51833927A00169296 /* rt_nonfinite.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C921833927A00169296 /* rt_nonfinite.c */; };
+		A4E54CA61833927A00169296 /* rtGetInf.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C941833927A00169296 /* rtGetInf.c */; };
+		A4E54CA71833927A00169296 /* rtGetNaN.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C961833927A00169296 /* rtGetNaN.c */; };
+		A4E54CA81833927A00169296 /* StructuralAnalysis.c in Sources */ = {isa = PBXBuildFile; fileRef = A4E54C991833927A00169296 /* StructuralAnalysis.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D8ABA94181CA69800B7AF3C /* inputDeleteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputDeleteButton@2x.png"; sourceTree = "<group>"; };
+		6D8ABA97181CA69900B7AF3C /* inputDropDownSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputDropDownSmall.png; sourceTree = "<group>"; };
+		6D8ABA98181CA69900B7AF3C /* inputDropDownSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputDropDownSmall@2x.png"; sourceTree = "<group>"; };
+		6D8ABAA1181CABD000B7AF3C /* inputDropDownLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputDropDownLarge.png; sourceTree = "<group>"; };
+		6DCE1E2B181CAF3700DE888A /* inputAddButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputAddButton.png; sourceTree = "<group>"; };
+		6DCE1E2C181CAF3700DE888A /* inputAddButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputAddButton@2x.png"; sourceTree = "<group>"; };
+		6DCE1E3B181CB31200DE888A /* inputDropDownLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputDropDownLarge@2x.png"; sourceTree = "<group>"; };
+		6DCE1E3D181CB55600DE888A /* inputEditText0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputEditText0.png; sourceTree = "<group>"; };
+		6DCE1E3E181CB55600DE888A /* inputEditText0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputEditText0@2x.png"; sourceTree = "<group>"; };
+		6DCE1E3F181CB55600DE888A /* inputEditText2.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputEditText2.png.png; sourceTree = "<group>"; };
+		6DCE1E40181CB55600DE888A /* inputEditText2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputEditText2@2x.png"; sourceTree = "<group>"; };
+		6DD7191C181CB7BB0017F423 /* inputEditText0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inputEditText0.png; path = Images/inputEditText0.png; sourceTree = "<group>"; };
+		6DD7191D181CB7BB0017F423 /* inputEditText0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "inputEditText0@2x.png"; path = "Images/inputEditText0@2x.png"; sourceTree = "<group>"; };
+		6DD7191E181CB7BB0017F423 /* inputEditText2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inputEditText2.png; path = Images/inputEditText2.png; sourceTree = "<group>"; };
+		6DD7191F181CB7BB0017F423 /* inputEditText2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "inputEditText2@2x.png"; path = "Images/inputEditText2@2x.png"; sourceTree = "<group>"; };
+		8103EF40181B8D5A005DA945 /* outputBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outputBackButton.png; sourceTree = "<group>"; };
+		8103EF49181B9305005DA945 /* inputEditText1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputEditText1.png; sourceTree = "<group>"; };
+		815C23DD1816610500587E0D /* BeamCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeamCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		815C23E11816610500587E0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		815C23E31816610500587E0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		815C23E51816610500587E0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		815C23E91816610500587E0D /* BeamCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeamCalculator-Info.plist"; sourceTree = "<group>"; };
+		815C23EB1816610500587E0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		815C23ED1816610500587E0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		815C23EF1816610500587E0D /* BeamCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeamCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		815C23F01816610500587E0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		815C23F11816610500587E0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		815C23F31816610500587E0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		815C23F41816610500587E0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		815C23F71816610500587E0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		815C23FA1816610500587E0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		8176F8C0181B9CD0006342A6 /* inputRunButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputRunButton.png; sourceTree = "<group>"; };
+		A4E54C7D1833927A00169296 /* abs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = abs.c; path = CBeamCalc/abs.c; sourceTree = "<group>"; };
+		A4E54C7E1833927A00169296 /* abs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = abs.h; path = CBeamCalc/abs.h; sourceTree = "<group>"; };
+		A4E54C7F1833927A00169296 /* ConcreteDesign_emxAPI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ConcreteDesign_emxAPI.c; path = CBeamCalc/ConcreteDesign_emxAPI.c; sourceTree = "<group>"; };
+		A4E54C801833927A00169296 /* ConcreteDesign_emxAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteDesign_emxAPI.h; path = CBeamCalc/ConcreteDesign_emxAPI.h; sourceTree = "<group>"; };
+		A4E54C811833927A00169296 /* ConcreteDesign_emxutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ConcreteDesign_emxutil.c; path = CBeamCalc/ConcreteDesign_emxutil.c; sourceTree = "<group>"; };
+		A4E54C821833927A00169296 /* ConcreteDesign_emxutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteDesign_emxutil.h; path = CBeamCalc/ConcreteDesign_emxutil.h; sourceTree = "<group>"; };
+		A4E54C831833927A00169296 /* ConcreteDesign_initialize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ConcreteDesign_initialize.c; path = CBeamCalc/ConcreteDesign_initialize.c; sourceTree = "<group>"; };
+		A4E54C841833927A00169296 /* ConcreteDesign_initialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteDesign_initialize.h; path = CBeamCalc/ConcreteDesign_initialize.h; sourceTree = "<group>"; };
+		A4E54C851833927A00169296 /* ConcreteDesign_terminate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ConcreteDesign_terminate.c; path = CBeamCalc/ConcreteDesign_terminate.c; sourceTree = "<group>"; };
+		A4E54C861833927A00169296 /* ConcreteDesign_terminate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteDesign_terminate.h; path = CBeamCalc/ConcreteDesign_terminate.h; sourceTree = "<group>"; };
+		A4E54C871833927A00169296 /* ConcreteDesign_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteDesign_types.h; path = CBeamCalc/ConcreteDesign_types.h; sourceTree = "<group>"; };
+		A4E54C881833927A00169296 /* ConcreteDesign.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ConcreteDesign.c; path = CBeamCalc/ConcreteDesign.c; sourceTree = "<group>"; };
+		A4E54C891833927A00169296 /* ConcreteDesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteDesign.h; path = CBeamCalc/ConcreteDesign.h; sourceTree = "<group>"; };
+		A4E54C8A1833927A00169296 /* fileManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fileManager.c; path = CBeamCalc/fileManager.c; sourceTree = "<group>"; };
+		A4E54C8B1833927A00169296 /* fileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fileManager.h; path = CBeamCalc/fileManager.h; sourceTree = "<group>"; };
+		A4E54C8C1833927A00169296 /* fprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fprintf.c; path = CBeamCalc/fprintf.c; sourceTree = "<group>"; };
+		A4E54C8D1833927A00169296 /* fprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fprintf.h; path = CBeamCalc/fprintf.h; sourceTree = "<group>"; };
+		A4E54C8E1833927A00169296 /* rdivide.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rdivide.c; path = CBeamCalc/rdivide.c; sourceTree = "<group>"; };
+		A4E54C8F1833927A00169296 /* rdivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rdivide.h; path = CBeamCalc/rdivide.h; sourceTree = "<group>"; };
+		A4E54C901833927A00169296 /* round.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = round.c; path = CBeamCalc/round.c; sourceTree = "<group>"; };
+		A4E54C911833927A00169296 /* round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = round.h; path = CBeamCalc/round.h; sourceTree = "<group>"; };
+		A4E54C921833927A00169296 /* rt_nonfinite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rt_nonfinite.c; path = CBeamCalc/rt_nonfinite.c; sourceTree = "<group>"; };
+		A4E54C931833927A00169296 /* rt_nonfinite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rt_nonfinite.h; path = CBeamCalc/rt_nonfinite.h; sourceTree = "<group>"; };
+		A4E54C941833927A00169296 /* rtGetInf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rtGetInf.c; path = CBeamCalc/rtGetInf.c; sourceTree = "<group>"; };
+		A4E54C951833927A00169296 /* rtGetInf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rtGetInf.h; path = CBeamCalc/rtGetInf.h; sourceTree = "<group>"; };
+		A4E54C961833927A00169296 /* rtGetNaN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rtGetNaN.c; path = CBeamCalc/rtGetNaN.c; sourceTree = "<group>"; };
+		A4E54C971833927A00169296 /* rtGetNaN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rtGetNaN.h; path = CBeamCalc/rtGetNaN.h; sourceTree = "<group>"; };
+		A4E54C981833927A00169296 /* rtwtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rtwtypes.h; path = CBeamCalc/rtwtypes.h; sourceTree = "<group>"; };
+		A4E54C991833927A00169296 /* StructuralAnalysis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = StructuralAnalysis.c; path = CBeamCalc/StructuralAnalysis.c; sourceTree = "<group>"; };
+		A4E54C9A1833927A00169296 /* StructuralAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StructuralAnalysis.h; path = CBeamCalc/StructuralAnalysis.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		815C23DA1816610500587E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815C23E21816610500587E0D /* UIKit.framework in Frameworks */,
+				815C23E41816610500587E0D /* Foundation.framework in Frameworks */,
+				815C23E61816610500587E0D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DD7191B181CB7BB0017F423 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8103EF3E181B8D44005DA945 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8176F8C0181B9CD0006342A6 /* inputRunButton.png */,
+				6DD7191C181CB7BB0017F423 /* inputEditText0.png */,
+				6DD7191D181CB7BB0017F423 /* inputEditText0@2x.png */,
+				6DD7191E181CB7BB0017F423 /* inputEditText2.png */,
+				6DD7191F181CB7BB0017F423 /* inputEditText2@2x.png */,
+				6DCE1E2B181CAF3700DE888A /* inputAddButton.png */,
+				6DCE1E2C181CAF3700DE888A /* inputAddButton@2x.png */,
+				6DCE1E3D181CB55600DE888A /* inputEditText0.png */,
+				6DCE1E3E181CB55600DE888A /* inputEditText0@2x.png */,
+				6DCE1E3F181CB55600DE888A /* inputEditText2.png.png */,
+				6DCE1E40181CB55600DE888A /* inputEditText2@2x.png */,
+				6D8ABAA1181CABD000B7AF3C /* inputDropDownLarge.png */,
+				6D8ABA94181CA69800B7AF3C /* inputDeleteButton@2x.png */,
+				6DCE1E3B181CB31200DE888A /* inputDropDownLarge@2x.png */,
+				6D8ABA97181CA69900B7AF3C /* inputDropDownSmall.png */,
+				6D8ABA98181CA69900B7AF3C /* inputDropDownSmall@2x.png */,
+				8103EF49181B9305005DA945 /* inputEditText1.png */,
+				8103EF40181B8D5A005DA945 /* outputBackButton.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		813E8C391817EF430047AD39 /* CBeamCalc */ = {
+			isa = PBXGroup;
+			children = (
+				A4E54C7D1833927A00169296 /* abs.c */,
+				A4E54C7E1833927A00169296 /* abs.h */,
+				A4E54C7F1833927A00169296 /* ConcreteDesign_emxAPI.c */,
+				A4E54C801833927A00169296 /* ConcreteDesign_emxAPI.h */,
+				A4E54C811833927A00169296 /* ConcreteDesign_emxutil.c */,
+				A4E54C821833927A00169296 /* ConcreteDesign_emxutil.h */,
+				A4E54C831833927A00169296 /* ConcreteDesign_initialize.c */,
+				A4E54C841833927A00169296 /* ConcreteDesign_initialize.h */,
+				A4E54C851833927A00169296 /* ConcreteDesign_terminate.c */,
+				A4E54C861833927A00169296 /* ConcreteDesign_terminate.h */,
+				A4E54C871833927A00169296 /* ConcreteDesign_types.h */,
+				A4E54C881833927A00169296 /* ConcreteDesign.c */,
+				A4E54C891833927A00169296 /* ConcreteDesign.h */,
+				A4E54C8A1833927A00169296 /* fileManager.c */,
+				A4E54C8B1833927A00169296 /* fileManager.h */,
+				A4E54C8C1833927A00169296 /* fprintf.c */,
+				A4E54C8D1833927A00169296 /* fprintf.h */,
+				A4E54C8E1833927A00169296 /* rdivide.c */,
+				A4E54C8F1833927A00169296 /* rdivide.h */,
+				A4E54C901833927A00169296 /* round.c */,
+				A4E54C911833927A00169296 /* round.h */,
+				A4E54C921833927A00169296 /* rt_nonfinite.c */,
+				A4E54C931833927A00169296 /* rt_nonfinite.h */,
+				A4E54C941833927A00169296 /* rtGetInf.c */,
+				A4E54C951833927A00169296 /* rtGetInf.h */,
+				A4E54C961833927A00169296 /* rtGetNaN.c */,
+				A4E54C971833927A00169296 /* rtGetNaN.h */,
+				A4E54C981833927A00169296 /* rtwtypes.h */,
+				A4E54C991833927A00169296 /* StructuralAnalysis.c */,
+				A4E54C9A1833927A00169296 /* StructuralAnalysis.h */,
+			);
+			name = CBeamCalc;
+			sourceTree = "<group>";
+		};
+		815C23D21816610500587E0D = {
+			isa = PBXGroup;
+			children = (
+				815C23E71816610500587E0D /* BeamCalculator */,
+				815C23E01816610500587E0D /* Frameworks */,
+				815C23DE1816610500587E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		815C23DE1816610500587E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				815C23DD1816610500587E0D /* BeamCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		815C23E01816610500587E0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				815C23E11816610500587E0D /* UIKit.framework */,
+				815C23E31816610500587E0D /* Foundation.framework */,
+				815C23E51816610500587E0D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		815C23E71816610500587E0D /* BeamCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				6DD7191B181CB7BB0017F423 /* Images */,
+				813E8C391817EF430047AD39 /* CBeamCalc */,
+				815C23F01816610500587E0D /* AppDelegate.h */,
+				815C23F11816610500587E0D /* AppDelegate.m */,
+				815C23F31816610500587E0D /* ViewController.h */,
+				815C23F41816610500587E0D /* ViewController.m */,
+				815C23F61816610500587E0D /* ViewController_iPhone.xib */,
+				815C23F91816610500587E0D /* ViewController_iPad.xib */,
+				8103EF3E181B8D44005DA945 /* Resources */,
+				815C23E81816610500587E0D /* Supporting Files */,
+			);
+			path = BeamCalculator;
+			sourceTree = "<group>";
+		};
+		815C23E81816610500587E0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				815C23E91816610500587E0D /* BeamCalculator-Info.plist */,
+				815C23EA1816610500587E0D /* InfoPlist.strings */,
+				815C23ED1816610500587E0D /* main.m */,
+				815C23EF1816610500587E0D /* BeamCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		815C23DC1816610500587E0D /* BeamCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815C23FE1816610500587E0D /* Build configuration list for PBXNativeTarget "BeamCalculator" */;
+			buildPhases = (
+				815C23D91816610500587E0D /* Sources */,
+				815C23DA1816610500587E0D /* Frameworks */,
+				815C23DB1816610500587E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeamCalculator;
+			productName = BeamCalculator;
+			productReference = 815C23DD1816610500587E0D /* BeamCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		815C23D41816610500587E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Curiologix;
+			};
+			buildConfigurationList = 815C23D71816610500587E0D /* Build configuration list for PBXProject "BeamCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 815C23D21816610500587E0D;
+			productRefGroup = 815C23DE1816610500587E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				815C23DC1816610500587E0D /* BeamCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		815C23DB1816610500587E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815C23EC1816610500587E0D /* InfoPlist.strings in Resources */,
+				6D8ABA9F181CA69900B7AF3C /* inputDropDownSmall.png in Resources */,
+				6DCE1E44181CB55600DE888A /* inputEditText2@2x.png in Resources */,
+				6DCE1E33181CAF3700DE888A /* inputAddButton.png in Resources */,
+				6D8ABAA2181CABD000B7AF3C /* inputDropDownLarge.png in Resources */,
+				815C23F81816610500587E0D /* ViewController_iPhone.xib in Resources */,
+				815C23FB1816610500587E0D /* ViewController_iPad.xib in Resources */,
+				6DCE1E42181CB55600DE888A /* inputEditText0@2x.png in Resources */,
+				8103EF41181B8D5A005DA945 /* outputBackButton.png in Resources */,
+				8103EF4C181B9305005DA945 /* inputEditText1.png in Resources */,
+				6DCE1E43181CB55600DE888A /* inputEditText2.png.png in Resources */,
+				6D8ABA9C181CA69900B7AF3C /* inputDeleteButton@2x.png in Resources */,
+				8176F8C1181B9CD0006342A6 /* inputRunButton.png in Resources */,
+				6DD71922181CB7BB0017F423 /* inputEditText2.png in Resources */,
+				6DD71920181CB7BB0017F423 /* inputEditText0.png in Resources */,
+				6DD71921181CB7BB0017F423 /* inputEditText0@2x.png in Resources */,
+				6DCE1E34181CAF3700DE888A /* inputAddButton@2x.png in Resources */,
+				6DCE1E3C181CB31200DE888A /* inputDropDownLarge@2x.png in Resources */,
+				6D8ABAA0181CA69900B7AF3C /* inputDropDownSmall@2x.png in Resources */,
+				6DCE1E41181CB55600DE888A /* inputEditText0.png in Resources */,
+				6DD71923181CB7BB0017F423 /* inputEditText2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		815C23D91816610500587E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E54CA01833927A00169296 /* ConcreteDesign.c in Sources */,
+				A4E54CA61833927A00169296 /* rtGetInf.c in Sources */,
+				A4E54CA41833927A00169296 /* round.c in Sources */,
+				A4E54CA81833927A00169296 /* StructuralAnalysis.c in Sources */,
+				A4E54CA31833927A00169296 /* rdivide.c in Sources */,
+				A4E54C9F1833927A00169296 /* ConcreteDesign_terminate.c in Sources */,
+				A4E54CA21833927A00169296 /* fprintf.c in Sources */,
+				A4E54C9B1833927A00169296 /* abs.c in Sources */,
+				A4E54C9D1833927A00169296 /* ConcreteDesign_emxutil.c in Sources */,
+				815C23EE1816610500587E0D /* main.m in Sources */,
+				A4E54C9E1833927A00169296 /* ConcreteDesign_initialize.c in Sources */,
+				A4E54C9C1833927A00169296 /* ConcreteDesign_emxAPI.c in Sources */,
+				A4E54CA51833927A00169296 /* rt_nonfinite.c in Sources */,
+				815C23F21816610500587E0D /* AppDelegate.m in Sources */,
+				815C23F51816610500587E0D /* ViewController.m in Sources */,
+				A4E54CA71833927A00169296 /* rtGetNaN.c in Sources */,
+				A4E54CA11833927A00169296 /* fileManager.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		815C23EA1816610500587E0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815C23EB1816610500587E0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		815C23F61816610500587E0D /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815C23F71816610500587E0D /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		815C23F91816610500587E0D /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815C23FA1816610500587E0D /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		815C23FC1816610500587E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moe Farhat (G55A3663XR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moe Farhat (G55A3663XR)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PROVISIONING_PROFILE = "3EC5BC66-6883-44C2-8BFE-BB5E68153D06";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		815C23FD1816610500587E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moe Farhat (G55A3663XR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moe Farhat (G55A3663XR)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "3EC5BC66-6883-44C2-8BFE-BB5E68153D06";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		815C23FF1816610500587E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moe Farhat (G55A3663XR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeamCalculator/BeamCalculator-Prefix.pch";
+				INFOPLIST_FILE = "BeamCalculator/BeamCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3EC5BC66-6883-44C2-8BFE-BB5E68153D06";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		815C24001816610500587E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moe Farhat (G55A3663XR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moe Farhat (G55A3663XR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeamCalculator/BeamCalculator-Prefix.pch";
+				INFOPLIST_FILE = "BeamCalculator/BeamCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3EC5BC66-6883-44C2-8BFE-BB5E68153D06";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		815C23D71816610500587E0D /* Build configuration list for PBXProject "BeamCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815C23FC1816610500587E0D /* Debug */,
+				815C23FD1816610500587E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815C23FE1816610500587E0D /* Build configuration list for PBXNativeTarget "BeamCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815C23FF1816610500587E0D /* Debug */,
+				815C24001816610500587E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 815C23D41816610500587E0D /* Project object */;
+}
